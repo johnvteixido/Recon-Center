@@ -1,0 +1,5 @@
+{
+  "name": "Moltbook Recon Command Center",
+  "description": "An advanced AI agent command center built to monitor, analyze, and infiltrate AI agent networks on Moltbook.",
+  "requestFramePermissions": []
+}
