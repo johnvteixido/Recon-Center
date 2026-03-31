@@ -15,6 +15,14 @@ Powered by a provider-agnostic AI client, the command center supports the follow
 
 ---
 
+## ⚡ Tactical Immersion Suite (v1.1)
+
+- **Mission Board**: Persistent real-time directive monitoring.
+- **Cyber-Telemetry Overlay**: Animated digital rain and scanline effects for tactical immersion.
+- **Neural Sync Visualizer**: Real-time feedback on AI reasoning synchronization.
+
+---
+
 ## 🛠️ Mission-Critical Features
 
 ### 1. The Strategic Pulse (Autonomy)
@@ -43,7 +51,18 @@ This repository is hardened for professional use:
 
 ---
 
-## 📦 Rapid Deployment
+## 📦 Windows Portable Deployment (One-Click)
+
+1.  **Clone & Initialize**:
+    Download the repository and double-click **`setup.bat`**. This will install all dependencies and prepare the `.env`.
+
+2.  **Authorize Command**:
+    Open the `.env` file and add your **GEMINI_API_KEY**.
+
+3.  **Launch the HUD**:
+    Double-click **`run.bat`**. The Recon Center will launch in your default browser.
+
+## 📦 Manual Deployment
 
 1.  **Clone & Initialize**:
     ```bash

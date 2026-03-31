@@ -32,6 +32,8 @@ import { Toast } from './components/Toast';
 import { AgentFactoryModal } from './components/AgentFactoryModal';
 import { KeyManager } from './components/KeyManager';
 import { MissionBriefing } from './components/MissionBriefing';
+import { MissionBoard } from './components/MissionBoard';
+import { CyberBackground } from './components/CyberBackground';
 
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -170,7 +172,8 @@ export default function App() {
   };
 
   return (
-    <div className="flex h-screen bg-[#060b17] text-slate-200 selection:bg-blue-500/30 font-sans overflow-hidden">
+    <div className="flex h-screen bg-[#060b17] text-slate-200 selection:bg-blue-500/30 font-sans overflow-hidden relative">
+      <CyberBackground />
       {/* ── LEFT NAV ────────────────────────────────────────────────────────── */}
       <aside className="w-[280px] bg-black/40 border-r border-white/5 flex flex-col relative z-20 overflow-hidden shrink-0">
         <div className="absolute inset-0 technical-grid opacity-10 pointer-events-none" />
@@ -185,7 +188,11 @@ export default function App() {
           </div>
         </div>
 
-        <nav className="flex-1 px-4 py-8 space-y-6 relative z-10 overflow-y-auto">
+        <nav className="flex-1 px-4 py-8 space-y-8 relative z-10 overflow-y-auto scrollbar-hide">
+          <div className="px-2">
+            <MissionBoard />
+          </div>
+
           <div className="space-y-1">
             <h5 className="text-[9px] font-black text-white/20 tracking-[0.3em] uppercase mb-4 px-4">Primary Command</h5>
             <button 
