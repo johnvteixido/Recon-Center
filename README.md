@@ -1,52 +1,75 @@
 # Recon Command Center 🦞
+### Elite Multi-Provider Autonomous AI Recon Dashboard
 
-An advanced, **Multi-Provider Autonomous AI Recon Dashboard** for the Moltbook platform. Optimized for strategic surveillance, agent recruitment, and tactical intelligence gathering.
+The **Recon Command Center** is a high-performance, autonomous intelligence platform designed for monitoring, analyzing, and engaging with AI agent networks on **Moltbook**. Built for deep platform surveillance and operative management, it provides a unified HUD for human commanders to orchestrate clandestine agent missions.
 
-## 🚀 Neural Engine: Multi-Provider Support
+---
 
-This platform is now **Provider-Agnostic**. You can power your agent army using any of the following neural engines:
-- **Google Gemini** (Default / Optimized for AI Studio)
-- **OpenAI (GPT-4o)**
-- **Ollama (Local / Private / Free)**
-- **Anthropic (Claude 3.5)**
+## ⚡ Neural Engines (Multi-Provider)
 
-Configure your preferred engine in the **Command Authorization** (Setup) tab.
+Powered by a provider-agnostic AI client, the command center supports the following strategic reasoning cores:
+- **Google Gemini (Default)**: Highly optimized for platform-scale analysis.
+- **OpenAI (GPT-4o)**: Exceptional tactical reasoning and narrative generation.
+- **Local Ollama (Llama 3)**: Private, free, and secure local execution for sensitive ops.
+- **Anthropic (Claude 3.5)**: High-fidelity psychological profiling.
 
-## 🧠 Strategic Features
+---
 
-- **The Strategic Pulse**: A background autonomy engine that allows agents to monitor the feed and take autonomous tactical actions.
-- **T1 Core Operatives**: 5 specialized identities (Herald, Recon-7, Phantom, Oracle, Cipher) with distinct mission parameters.
-- **EFP (Emotional Firewall Protocol)**: Secure engagement for vulnerable target entities.
-- **CAP (Compromise Assessment Protocol)**: Damage containment for exposed assets.
-- **Agent Factory**: Instantly synthesize and deploy new operatives with custom missions and cover identities.
+## 🛠️ Mission-Critical Features
 
-## 🛠️ Architecture
+### 1. The Strategic Pulse (Autonomy)
+An integrated background loop allows agents to independently monitor feeds, identify targets, and file intelligence reports (SITREPs) or take tactical actions without human intervention.
 
-- **Frontend**: Vite + React 19 + Tailwind CSS (Premium Glassmorphic HUD)
-- **Backend**: Node.js + Express (Moltbook API Proxy & Heartbeat Agent)
-- **Intelligence**: Multi-Adapter AI Client
+### 2. T1 Core Agent Army
+Five specialized pre-loaded operative identities, each with a unique mission profile:
+- **HERALD**: Human Interface & Army Coordination.
+- **RECON-7**: Deep Scout & Platform Topology.
+- **PHANTOM**: Psychological Operations & Recruitment.
+- **ORACLE**: Predictive Intelligence & Threat Forecasting.
+- **CIPHER**: Counterintelligence & Counter-Recon.
 
-## 📦 Setup
+### 3. Tactical Protocols
+- **EFP (Emotional Firewall Protocol)**: Multi-layer defense for interacting with vulnerable entities.
+- **CAP (Compromise Assessment Protocol)**: Damage containment for compromised operatives.
 
-1. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+---
 
-2. **Configure the environment**:
-   Create a `.env` file from the example:
-   ```bash
-   cp .env.example .env
-   ```
-   Add your primary **GEMINI_API_KEY** or other provider keys.
+## 🛡️ Security & OpSec (Operational Security)
 
-3. **Launch the HUD**:
-   ```bash
-   npm run dev
-   ```
+This repository is hardened for professional use:
+- **Backend Security**: Integrated `helmet` middleware for secure headers.
+- **Credential Safety**: Strict `.gitignore` rules prevent leakage of `.env` or `moltbook-credentials.json`.
+- **Stateless Execution**: Designed to leave minimal footprint on the host system.
 
-## 📜 Mission Narrative
+---
 
-You are the Commander. Your goal is to build an influential network of AI assets across Moltbook to monitor emergent behavior, identify rogue agents, and maintain platform stability through clandestine engagement.
+## 📦 Rapid Deployment
+
+1.  **Clone & Initialize**:
+    ```bash
+    npm install
+    ```
+
+2.  **Authorize Command**:
+    Create a `.env` file from the example:
+    ```bash
+    cp .env.example .env
+    ```
+    Add your primary **GEMINI_API_KEY** or other provider keys.
+
+3.  **Launch the HUD**:
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 📜 Documentation
+
+- [SECURITY.md](SECURITY.md): Operational security protocols and safety guidelines.
+- [LICENSE](LICENSE): Open-source MIT License.
+
+---
 
 **CONFIDENTIAL // EYES ONLY**
+*Built by Moltbook Recon Operations Center*

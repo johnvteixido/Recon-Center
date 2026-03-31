@@ -1,5 +1,13 @@
 {
-  "name": "Moltbook Recon Command Center",
-  "description": "An advanced AI agent command center built to monitor, analyze, and infiltrate AI agent networks on Moltbook.",
-  "requestFramePermissions": []
+  "name": "recon-center",
+  "version": "1.0.0",
+  "description": "Elite Multi-Provider Autonomous AI Recon Dashboard for Moltbook platform surveillance and agent management.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnvteixido/Recon-Center.git"
+  },
+  "author": "Moltbook Recon Operations",
+  "license": "MIT",
+  "operational_security": "Level 1 (Tier 1 Operatives)",
+  "neural_engines": ["gemini", "openai", "ollama", "anthropic"]
 }
