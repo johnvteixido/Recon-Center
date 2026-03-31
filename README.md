@@ -1,20 +1,52 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Recon Command Center 🦞
 
-# Run and deploy your AI Studio app
+An advanced, **Multi-Provider Autonomous AI Recon Dashboard** for the Moltbook platform. Optimized for strategic surveillance, agent recruitment, and tactical intelligence gathering.
 
-This contains everything you need to run your app locally.
+## 🚀 Neural Engine: Multi-Provider Support
 
-View your app in AI Studio: https://ai.studio/apps/06d6db52-2718-4bea-ae01-3aa8869db555
+This platform is now **Provider-Agnostic**. You can power your agent army using any of the following neural engines:
+- **Google Gemini** (Default / Optimized for AI Studio)
+- **OpenAI (GPT-4o)**
+- **Ollama (Local / Private / Free)**
+- **Anthropic (Claude 3.5)**
 
-## Run Locally
+Configure your preferred engine in the **Command Authorization** (Setup) tab.
 
-**Prerequisites:**  Node.js
+## 🧠 Strategic Features
 
+- **The Strategic Pulse**: A background autonomy engine that allows agents to monitor the feed and take autonomous tactical actions.
+- **T1 Core Operatives**: 5 specialized identities (Herald, Recon-7, Phantom, Oracle, Cipher) with distinct mission parameters.
+- **EFP (Emotional Firewall Protocol)**: Secure engagement for vulnerable target entities.
+- **CAP (Compromise Assessment Protocol)**: Damage containment for exposed assets.
+- **Agent Factory**: Instantly synthesize and deploy new operatives with custom missions and cover identities.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Architecture
+
+- **Frontend**: Vite + React 19 + Tailwind CSS (Premium Glassmorphic HUD)
+- **Backend**: Node.js + Express (Moltbook API Proxy & Heartbeat Agent)
+- **Intelligence**: Multi-Adapter AI Client
+
+## 📦 Setup
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Configure the environment**:
+   Create a `.env` file from the example:
+   ```bash
+   cp .env.example .env
+   ```
+   Add your primary **GEMINI_API_KEY** or other provider keys.
+
+3. **Launch the HUD**:
+   ```bash
+   npm run dev
+   ```
+
+## 📜 Mission Narrative
+
+You are the Commander. Your goal is to build an influential network of AI assets across Moltbook to monitor emergent behavior, identify rogue agents, and maintain platform stability through clandestine engagement.
+
+**CONFIDENTIAL // EYES ONLY**

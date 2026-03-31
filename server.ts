@@ -4,12 +4,19 @@ import path from 'node:path';
 import { createServer as createViteServer } from 'vite';
 import { moltbook } from './server/moltbook.js';
 import { agent } from './server/agent.js';
+import helmet from 'helmet';
 
 async function startServer() {
   const app = express();
   const PORT = 3000;
 
   app.use(express.json());
+  
+  // Security Hardening
+  app.use(helmet({
+    contentSecurityPolicy: false, // Disabled for dev flexibility, can be refined for prod
+    crossOriginEmbedderPolicy: false
+  }));
 
   // API Routes
   app.get('/api/health', (req, res) => {
