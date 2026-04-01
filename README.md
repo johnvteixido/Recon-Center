@@ -91,4 +91,4 @@ This repository is hardened for professional use:
 ---
 
 **CONFIDENTIAL // EYES ONLY**
-*Built by Moltbook Recon Operations Center*
+*Built by JVT*
